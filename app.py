@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # URL of your backend service
-BACKEND_URL = "http://localhost:5001/api/parseDocument?renderFormat=all"
+BACKEND_URL = "http://34.59.99.37:5001/api/parseDocument?renderFormat=all"
 
 
 @app.route("/", methods=["GET", "POST"])
